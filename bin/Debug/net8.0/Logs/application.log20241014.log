@@ -1,0 +1,50 @@
+2024-10-14 11:35:24,169 INFO  ExcelReportGenerator.ExcelService - User entered state AB
+2024-10-14 11:35:24,191 INFO  ExcelReportGenerator.Program - Reading excel data for the state AB
+2024-10-14 11:35:26,978 INFO  ExcelReportGenerator.Program - Reading excel data for the state AB Completed
+2024-10-14 11:35:26,978 WARN  ExcelReportGenerator.ExcelService - No records found for state: AB
+2024-10-14 11:35:50,765 ERROR ExcelReportGenerator.ExcelService - State filter must contain only alphabetic characters.
+2024-10-14 11:35:55,826 INFO  ExcelReportGenerator.ExcelService - User entered state ER
+2024-10-14 11:35:55,840 INFO  ExcelReportGenerator.Program - Reading excel data for the state ER
+2024-10-14 11:35:57,754 INFO  ExcelReportGenerator.Program - Reading excel data for the state ER Completed
+2024-10-14 11:35:57,756 WARN  ExcelReportGenerator.ExcelService - No records found for state: ER
+2024-10-14 11:37:04,852 INFO  ExcelReportGenerator.ExcelService - User entered state MN
+2024-10-14 11:37:04,868 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-14 11:37:06,946 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-14 11:39:08,222 ERROR ExcelReportGenerator.ExcelService - Error:: Could not find a part of the path 'D:\VSCodeWorkspace\Console\ExcelReportGenerator\InputFiles'.
+2024-10-14 11:39:08,240 ERROR ExcelReportGenerator.ExcelService - StackTrace:    at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserFiles(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, EnumerationOptions enumerationOptions)
+   at ExcelReportGenerator.ExcelService.Run() in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ExcelService.cs:line 40
+2024-10-14 11:41:01,877 ERROR ExcelReportGenerator.ExcelService - State filter must contain only alphabetic characters.
+2024-10-14 11:41:08,785 INFO  ExcelReportGenerator.ExcelService - User entered state IA
+2024-10-14 11:41:08,797 INFO  ExcelReportGenerator.Program - Reading excel data for the state IA
+2024-10-14 11:41:11,514 INFO  ExcelReportGenerator.Program - Reading excel data for the state IA Completed
+2024-10-14 11:41:21,555 ERROR ExcelReportGenerator.ExcelService - User entered a number of weeks out of range: 82
+2024-10-14 11:41:28,689 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-14 11:41:28,798 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-14 11:42:52,024 ERROR ExcelReportGenerator.ExcelService - State filter must contain only alphabetic characters.
+2024-10-14 11:42:57,804 INFO  ExcelReportGenerator.ExcelService - User entered state MN
+2024-10-14 11:42:57,813 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-14 11:42:59,695 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-14 11:43:08,241 ERROR ExcelReportGenerator.ExcelService - User entered a number of weeks out of range: -64
+2024-10-14 11:43:12,330 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-14 11:43:12,431 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-14 16:37:43,804 ERROR ExcelReportGenerator.ExcelService - State filter must contain only alphabetic characters.
+2024-10-14 16:37:51,382 ERROR ExcelReportGenerator.ExcelService - State filter must contain only alphabetic characters.
+2024-10-14 16:37:54,858 INFO  ExcelReportGenerator.ExcelService - User entered state MN
+2024-10-14 16:37:54,873 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-14 16:37:57,685 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-14 16:38:05,488 ERROR ExcelReportGenerator.ExcelService - User entered a number of weeks out of range: 73
+2024-10-14 16:38:12,847 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-14 16:38:12,978 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-14 17:05:46,425 ERROR ExcelReportGenerator.ExcelService - State filter must contain only alphabetic characters.
+2024-10-14 17:06:01,456 ERROR ExcelReportGenerator.ExcelService - State filter must contain only alphabetic characters.
+2024-10-14 17:06:11,465 INFO  ExcelReportGenerator.ExcelService - User entered state MN
+2024-10-14 17:06:11,481 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-14 17:06:13,538 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-14 17:06:32,883 ERROR ExcelReportGenerator.ExcelService - User entered a number of weeks out of range: 78
+2024-10-14 17:06:47,228 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-14 17:06:47,349 INFO  ExcelReportGenerator.Program - Excel Report generation Completed

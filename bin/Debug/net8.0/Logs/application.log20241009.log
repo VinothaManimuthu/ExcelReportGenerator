@@ -1,0 +1,15 @@
+2024-10-09 10:46:18,396 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-09 10:46:22,348 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-09 10:46:25,778 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-09 10:46:25,784 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-09 10:46:25,913 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-09 12:22:03,839 INFO  ExcelReportGenerator.Program - User entered state IA
+2024-10-09 12:22:06,246 INFO  ExcelReportGenerator.Program - Reading excel data for the state IA
+2024-10-09 12:22:08,997 INFO  ExcelReportGenerator.Program - Reading excel data for the state IA Completed
+2024-10-09 12:22:09,003 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-09 12:22:09,106 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-09 12:23:16,795 INFO  ExcelReportGenerator.Program - User entered state IA
+2024-10-09 12:23:18,846 INFO  ExcelReportGenerator.Program - Reading excel data for the state IA
+2024-10-09 12:23:20,875 INFO  ExcelReportGenerator.Program - Reading excel data for the state IA Completed
+2024-10-09 12:23:20,879 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-09 12:23:20,970 INFO  ExcelReportGenerator.Program - Excel Report generation Completed

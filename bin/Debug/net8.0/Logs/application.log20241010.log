@@ -1,0 +1,8 @@
+2024-10-10 11:26:57,635 ERROR ExcelReportGenerator.Program - No .xlsx files found in the folder: D:\VSCodeWorkspace\Console\ExcelReportGenerator\bin\Debug\net8.0\InputFiles
+2024-10-10 12:36:00,248 ERROR ExcelReportGenerator.ExcelService - No .xlsx files found in the folder: D:\VSCodeWorkspace\Console\ExcelReportGenerator\bin\Debug\net8.0\InputFiles
+2024-10-10 21:32:49,290 ERROR ExcelReportGenerator.ExcelService - No .xlsx files found in the folder: D:\VSCodeWorkspace\Console\ExcelReportGenerator\bin\Debug\net8.0\InputFiles
+2024-10-10 21:36:03,568 INFO  ExcelReportGenerator.ExcelService - User entered state MN
+2024-10-10 21:36:03,600 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-10 21:36:09,413 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-10 21:36:12,406 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-10 21:36:12,750 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
