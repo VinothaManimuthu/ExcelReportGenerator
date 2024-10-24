@@ -1,0 +1,563 @@
+2024-10-07 10:56:08,267 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 10:56:08,291 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 10:56:08,579 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 10:56:08,583 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 10:56:08,672 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 11:04:48,045 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 11:04:48,062 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 11:04:49,077 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 11:04:49,082 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 11:04:49,177 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 11:04:49,178 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 11:06:04,083 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 11:06:04,099 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 11:06:04,149 ERROR ExcelReportGenerator.Program - Exception: Worksheet position out of range.
+2024-10-07 11:06:04,159 ERROR ExcelReportGenerator.Program - StackTrace:    at OfficeOpenXml.ExcelWorksheets.get_Item(Int32 PositionID)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 23
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 36
+2024-10-07 11:06:04,160 ERROR ExcelReportGenerator.Program - Error:: Worksheet position out of range.
+2024-10-07 11:10:04,001 ERROR ExcelReportGenerator.Program - File not found: The file 'D:\VSCodeWorkspace\Console\ExcelReportGenerator\SampleData1.xlsx' was not found.
+2024-10-07 11:11:30,905 ERROR ExcelReportGenerator.Program - File not found: The file 'D:\VSCodeWorkspace\Console\ExcelReportGenerator\SampleData1.xlsx' was not found.
+2024-10-07 11:11:30,913 ERROR ExcelReportGenerator.Program - Exception: The file 'D:\VSCodeWorkspace\Console\ExcelReportGenerator\SampleData1.xlsx' was not found.
+2024-10-07 11:11:30,921 ERROR ExcelReportGenerator.Program - StackTrace:    at ExcelReportGenerator.Program.CheckFileExists(String filePath) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 74
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 24
+2024-10-07 11:29:15,382 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 11:29:15,398 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 11:29:16,528 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 11:29:16,533 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 11:29:16,631 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 11:29:16,631 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 12:01:40,889 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 12:01:40,909 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 12:01:42,021 ERROR ExcelReportGenerator.Program - Exception: String '9/29/2024' was not recognized as a valid DateOnly.
+2024-10-07 12:01:42,031 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 50
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 12:01:42,033 ERROR ExcelReportGenerator.Program - Error:: String '9/29/2024' was not recognized as a valid DateOnly.
+2024-10-07 12:03:02,521 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 12:03:02,540 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 12:03:02,801 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 12:03:02,811 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 50
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 12:03:02,815 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 12:05:35,782 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 12:05:35,800 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 12:05:36,839 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 12:05:36,850 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 51
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 12:05:36,851 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 12:06:27,571 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 12:06:27,586 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 12:06:27,845 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 12:06:27,858 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 51
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 12:06:27,859 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 12:07:29,135 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 12:07:29,152 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 12:07:29,427 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 12:07:29,437 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 51
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 12:07:29,439 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 12:07:59,213 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 12:07:59,228 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 12:07:59,475 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 12:07:59,484 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 51
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 12:07:59,487 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:05:21,975 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:05:22,013 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:05:49,485 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:05:49,504 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:05:49,855 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:05:49,871 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 63
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:05:49,873 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:07:58,009 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:07:58,047 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:07:58,637 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:07:58,653 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 63
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:07:58,656 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:11:05,185 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:11:05,221 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:11:05,768 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:11:05,794 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 63
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:11:05,798 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:22:25,495 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:22:25,516 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:22:27,493 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:22:27,512 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 68
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:22:27,514 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:26:48,347 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:26:48,371 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:26:48,750 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:26:48,767 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 69
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:26:48,768 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:27:52,852 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:27:52,878 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:27:53,241 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:27:53,256 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 69
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:27:53,258 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:28:17,187 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:28:17,212 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:28:17,615 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:28:17,630 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 69
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:28:17,632 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:34:47,555 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:34:47,585 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:34:48,003 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:34:48,020 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 69
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:34:48,022 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:36:04,902 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:36:04,925 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:36:42,525 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:36:42,587 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 69
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:36:42,588 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:37:37,640 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:37:37,658 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:37:38,000 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:37:38,017 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 69
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:37:38,020 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:39:32,812 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:39:32,837 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:39:33,149 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:39:33,166 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 69
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:39:33,168 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:53:03,028 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:53:03,071 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:53:05,394 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:53:05,420 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 67
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:53:05,422 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:55:48,460 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:55:48,496 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:55:49,194 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:55:49,219 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 67
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:55:49,221 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:57:08,806 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:57:08,835 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:57:09,298 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:57:09,314 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 67
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:57:09,316 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:58:29,266 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 13:58:29,303 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 13:58:29,878 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 13:58:29,901 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 67
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 13:58:29,903 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:03:12,448 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:03:12,469 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:03:12,895 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:03:12,913 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 68
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:03:12,915 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:10:04,667 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:10:04,688 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:10:05,875 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:10:05,890 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 68
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:10:05,891 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:11:27,498 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:11:27,512 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:11:27,761 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:11:27,770 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 70
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:11:27,771 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:15:49,411 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:15:49,427 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:15:49,835 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:15:49,849 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 72
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:15:49,850 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:24:00,821 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:24:00,840 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:24:01,854 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:24:01,867 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 54
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:24:01,868 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:27:38,342 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:27:38,371 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:27:38,609 ERROR ExcelReportGenerator.Program - Exception: The input string '9/29/2024' was not in a correct format.
+2024-10-07 14:27:38,620 ERROR ExcelReportGenerator.Program - StackTrace:    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.String.System.IConvertible.ToDouble(IFormatProvider provider)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 74
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:27:38,621 ERROR ExcelReportGenerator.Program - Error:: The input string '9/29/2024' was not in a correct format.
+2024-10-07 14:29:41,636 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:29:41,651 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:29:41,893 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:29:41,904 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 54
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:29:41,905 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:30:58,210 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:30:58,229 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:30:58,487 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:30:58,501 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 54
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:30:58,502 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:34:20,158 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:34:20,186 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:34:20,553 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:34:20,564 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 54
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:34:20,566 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:34:48,596 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:34:48,613 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:34:48,885 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:34:48,902 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 54
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:34:48,904 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:35:22,989 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:35:23,012 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:35:23,307 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:35:23,318 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 54
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:35:23,319 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:36:13,655 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:36:13,672 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:36:13,953 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:36:13,967 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 54
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:36:13,967 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:36:48,709 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:36:48,725 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:38:09,058 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:38:09,074 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:38:09,361 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:38:09,374 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 72
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:38:09,375 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:39:48,720 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:39:48,733 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:39:49,019 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:39:49,030 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 73
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:39:49,031 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:41:52,563 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:41:52,576 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:41:52,847 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:41:52,857 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 73
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:41:52,858 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:43:26,613 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:43:26,635 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:43:26,959 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:43:26,969 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 70
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:43:26,970 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:46:05,847 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:46:05,868 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:46:06,169 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:46:06,186 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 70
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:46:06,187 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:48:23,181 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 14:48:23,202 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 14:48:23,465 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 14:48:23,474 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 71
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 14:48:23,475 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 16:17:16,894 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 16:17:16,912 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 16:17:18,059 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 16:17:18,076 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 54
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 16:17:18,078 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 16:21:29,716 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 16:21:29,736 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 16:21:30,068 ERROR ExcelReportGenerator.Program - Exception: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 16:21:30,080 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 54
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 16:21:30,084 ERROR ExcelReportGenerator.Program - Error:: String '45543' was not recognized as a valid DateOnly.
+2024-10-07 16:23:05,377 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 16:23:05,388 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 16:26:16,166 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 16:26:16,174 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 16:26:16,303 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 16:26:16,303 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 16:32:37,503 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 16:32:37,525 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 16:32:37,862 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 16:32:37,869 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 16:32:37,977 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 16:32:37,978 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 16:42:28,330 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 16:42:28,346 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 16:42:29,529 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 16:42:29,535 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 16:42:29,637 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 16:42:29,638 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 16:48:45,958 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 16:48:45,973 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 16:48:46,319 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 16:48:46,323 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 16:48:46,418 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 16:48:46,418 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 16:51:48,053 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 16:51:48,084 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 16:51:48,541 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 16:51:48,547 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 16:51:48,653 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 16:51:48,653 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 16:53:00,043 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 16:53:00,058 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 16:53:00,357 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 16:53:00,364 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 16:53:00,456 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 16:53:00,457 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 18:19:34,020 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 18:19:34,046 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 18:19:35,795 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 18:19:35,805 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 18:19:36,017 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 18:19:36,017 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 18:21:47,141 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 18:21:47,163 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 18:21:47,585 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 18:21:47,594 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 18:21:47,821 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 18:21:47,821 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 18:26:01,216 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 18:26:01,237 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 18:26:03,141 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 18:26:03,152 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 18:26:03,328 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 18:26:03,328 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 18:29:59,220 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 18:29:59,248 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 18:29:59,766 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 18:29:59,780 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 18:29:59,991 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 18:29:59,991 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 18:32:08,296 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 18:32:08,324 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 18:32:08,677 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 18:32:08,685 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 18:32:08,832 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 18:32:08,833 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 21:28:22,217 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:28:22,235 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:28:23,347 ERROR ExcelReportGenerator.Program - Exception: String '1/1/2022 00:00:00' was not recognized as a valid DateOnly.
+2024-10-07 21:28:23,359 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 74
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 21:28:23,360 ERROR ExcelReportGenerator.Program - Error:: String '1/1/2022 00:00:00' was not recognized as a valid DateOnly.
+2024-10-07 21:35:08,446 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:35:08,464 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:35:08,800 ERROR ExcelReportGenerator.Program - Exception: String 'NULL' was not recognized as a valid DateOnly.
+2024-10-07 21:35:08,813 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 89
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 21:35:08,814 ERROR ExcelReportGenerator.Program - Error:: String 'NULL' was not recognized as a valid DateOnly.
+2024-10-07 21:43:14,082 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:43:14,104 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:43:15,317 ERROR ExcelReportGenerator.Program - Exception: The given key '9/29/2022' was not present in the dictionary.
+2024-10-07 21:43:15,339 ERROR ExcelReportGenerator.Program - StackTrace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 114
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 21:43:15,340 ERROR ExcelReportGenerator.Program - Error:: The given key '9/29/2022' was not present in the dictionary.
+2024-10-07 21:44:32,059 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:44:32,075 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:44:32,412 ERROR ExcelReportGenerator.Program - Exception: The given key '7/14/2026' was not present in the dictionary.
+2024-10-07 21:44:32,426 ERROR ExcelReportGenerator.Program - StackTrace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 114
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 21:44:32,429 ERROR ExcelReportGenerator.Program - Error:: The given key '7/14/2026' was not present in the dictionary.
+2024-10-07 21:45:58,928 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:45:58,947 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:45:59,232 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 21:45:59,240 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 21:45:59,377 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 21:45:59,377 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 21:52:27,441 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:52:27,457 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:52:27,779 ERROR ExcelReportGenerator.Program - Exception: String '9/29/2024' was not recognized as a valid DateOnly.
+2024-10-07 21:52:27,789 ERROR ExcelReportGenerator.Program - StackTrace:    at System.DateOnly.ThrowOnError(ParseFailureKind result, ReadOnlySpan`1 s)
+   at System.DateOnly.ParseExact(String s, String format)
+   at ExcelReportGenerator.ReadDataFromExcel.ReadData(String inputFilePath, String stateFilter) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\ReadDataFromExcel.cs:line 51
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 32
+2024-10-07 21:52:27,790 ERROR ExcelReportGenerator.Program - Error:: String '9/29/2024' was not recognized as a valid DateOnly.
+2024-10-07 21:53:47,638 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:53:47,653 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:53:48,699 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 21:53:48,705 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 21:53:48,815 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 21:53:48,815 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 21:55:06,115 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:55:06,132 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:55:06,547 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 21:55:06,554 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 21:55:18,338 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 21:55:18,338 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 21:55:51,175 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:55:51,193 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:55:51,618 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 21:55:51,626 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 21:56:27,492 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 21:56:27,492 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 21:57:37,639 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 21:57:37,656 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 21:57:38,049 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 21:57:38,054 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:00:15,534 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:00:15,552 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:00:15,932 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:00:15,939 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:03:42,991 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:03:43,007 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:03:43,430 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:03:43,436 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:05:51,580 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:05:51,599 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:05:52,155 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:06:59,945 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:08:04,525 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 22:08:04,525 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 22:08:27,625 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:08:27,642 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:08:28,090 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:08:31,597 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:09:20,454 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:09:20,470 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:09:21,515 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:09:24,204 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:09:38,960 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 22:09:38,961 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 22:10:16,401 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:10:16,416 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:10:16,773 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:10:19,358 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:12:41,719 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:12:41,731 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:12:42,012 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:12:42,017 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:12:42,117 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 22:12:42,117 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 22:14:37,363 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:14:37,380 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:14:37,718 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:14:37,724 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:14:37,837 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 22:14:37,837 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 22:17:08,891 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:17:08,906 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:17:09,176 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:17:09,180 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:17:09,211 ERROR ExcelReportGenerator.Program - Exception: Row out of range
+2024-10-07 22:17:09,222 ERROR ExcelReportGenerator.Program - StackTrace:    at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at ExcelReportGenerator.GenerateExcelReport.GenerateReport(List`1 dataRecords, String outputFilePath) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\GenerateExcelReport.cs:line 95
+   at ExcelReportGenerator.Program.Main(String[] args) in D:\VSCodeWorkspace\Console\ExcelReportGenerator\Program.cs:line 35
+2024-10-07 22:17:09,224 ERROR ExcelReportGenerator.Program - Error:: Row out of range
+2024-10-07 22:18:24,428 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:18:24,443 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:18:24,713 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:18:24,717 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:18:24,809 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 22:18:24,810 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 22:31:02,538 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:31:02,556 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:36:07,049 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:36:07,061 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:36:07,415 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:36:07,425 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:36:07,571 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 22:36:07,571 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
+2024-10-07 22:39:00,752 INFO  ExcelReportGenerator.Program - User entered state MN
+2024-10-07 22:39:00,773 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN
+2024-10-07 22:39:01,869 INFO  ExcelReportGenerator.Program - Reading excel data for the state MN Completed
+2024-10-07 22:39:01,876 INFO  ExcelReportGenerator.Program - Excel report generation starts here
+2024-10-07 22:39:01,985 INFO  ExcelReportGenerator.Program - Excel Report generation Completed
+2024-10-07 22:39:01,986 INFO  ExcelReportGenerator.Program - Excel report generated successfully!
